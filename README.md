@@ -1,16 +1,114 @@
-# React + Vite
+# React Clone Cards – Testimonios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto realizado con **React** que muestra tarjetas (cards) de testimonios inspiradas en el ejercicio de freeCodeCamp.  
+La aplicación utiliza componentes reutilizables para representar testimonios de forma clara y estructurada.
 
-Currently, two official plugins are available:
+Es un proyecto orientado a practicar:
+- Componentes en React
+- Paso de props
+- Estructuración de proyecto
+- Estilos CSS por componente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Descripción
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+La aplicación muestra una serie de **tarjetas de testimonios**.  
+Cada tarjeta incluye:
 
-## Expanding the ESLint configuration
+- Imagen de la persona
+- Nombre
+- Texto del testimonio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El objetivo principal es reforzar el uso de **componentes reutilizables** y la separación de responsabilidades entre lógica, estructura y estilos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **React** – Biblioteca para construir interfaces de usuario
+- **Vite** – Herramienta de desarrollo y build rápida
+- **JavaScript (ES6+)**
+- **CSS** – Estilos del proyecto
+- **ESLint** – Control de calidad del código
+
+---
+
+## 📦 Instalación
+
+Clona el repositorio y ejecuta el proyecto en local:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/David-Navarro-Oliver/React-Clone-Cards.git
+
+# Entrar en el directorio del proyecto
+cd React-Clone-Cards
+
+# Instalar dependencias
+npm install
+```
+
+---
+
+## ▶️ Uso
+
+```bash
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
+
+# Previsualizar la build
+npm run preview
+
+# Ejecutar linter
+npm run lint
+
+---
+
+## 📁 Estructura del proyecto
+
+```text
+React-Clone-Cards/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── img/
+│   │       ├── Emma.png
+│   │       ├── Sarah.png
+│   │       └── Shawn.png
+│   ├── components/
+│   │   └── Testimonio.jsx
+│   ├── styles/
+│   │   └── Testimonio.css
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 🎯 Características
+
+- Componentes React reutilizables
+- Separación clara entre lógica, estructura y estilos
+- Organización modular del proyecto
+- Renderizado dinámico de contenido
+- Proyecto base ideal para escalar o refactorizar
+
+---
+
+## 📝 Licencia
+
+Proyecto desarrollado con fines **educativos y de práctica**.
