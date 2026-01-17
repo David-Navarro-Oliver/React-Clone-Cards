@@ -65,6 +65,7 @@ npm run preview
 
 # Ejecutar linter
 npm run lint
+```
 
 ---
 
